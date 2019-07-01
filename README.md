@@ -1,6 +1,6 @@
 # Prototype WebRTC
 
-This project is developed by Clément Mouret and Luc Tribolet during an internship at Atos Worldline.
+This project is developed by Clément Mouret and Luc Tribolet during an internship at Atos Worldline. I've just modified it with some feature!
 
 This prototype is only available for Chrome/Chromium with WebRTC support.
 This web application allows you to video chat with someone else by sharing a single link.
@@ -19,7 +19,7 @@ You have to install
 ## Installation
 
 1. Get the sources
-2. Move them in your www directory
+2. Move in sources directory
 3. Change the server address in index.php and webrtc.js if needed
 4. Launch index.js in nodejs_server with "node /path/to/your/www/nodejs_server/index.js"
 5. Open the page http://yourserver/

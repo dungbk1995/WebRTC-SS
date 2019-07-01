@@ -34,9 +34,6 @@ var pcConfig = {
     urls: 'stun:numb.viagenie.ca'
   },
   {
-    urls: 'stun:faq.quduiba.com:4478'
-  },
-  {
     urls: [
         'turn:webrtcweb.com:7788', // coTURN 7788+8877
         'turn:webrtcweb.com:8877',
@@ -46,7 +43,7 @@ var pcConfig = {
     username: 'muazkh'
   },
   {
-    urls: [
+    url: [
         "turn:ss-turn2.xirsys.com:80?transport=udp",       
     "turn:ss-turn2.xirsys.com:3478?transport=udp",       
     "turn:ss-turn2.xirsys.com:80?transport=tcp",       
@@ -54,13 +51,8 @@ var pcConfig = {
     "turns:ss-turn2.xirsys.com:443?transport=tcp",       
     "turns:ss-turn2.xirsys.com:5349?transport=tcp" // restund udp
     ],
-    credential: "6c9a9b2a-50b1-11e9-ae20-322c48b34491",
-    username: "Hf97t7jl8yWOLiiTz2xDhEzWuaFjvETaScZfkHVyOlvAxghSQLcw6mSKrKxwnnk3AAAAAFybq4Fjb25hbmR1bmc5OQ=="
-  },
-  {
-      url: 'turn:faq.quduiba.com:4478',
-      credential: 'MzFiMTU3MGM1NDExNTVlZjNhNDk0NjYwODk3MzNmMjA0NzhjODA4Mw==',
-      username: '1436436296:048645111'
+    username:"oxnMigueiwc21LolgoEwFdVIBR4xSmvL9e88bJtUXjh7p5ilRVo380igO7tdbbkzAAAAAF0V4mJjb25hbmR1bmc5OQ==",
+    credential: "db717a02-9989-11e9-ae00-066b071c7196",
   },
   {
     url: 'turn:numb.viagenie.ca',
